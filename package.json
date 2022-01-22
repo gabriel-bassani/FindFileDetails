@@ -1,0 +1,33 @@
+{
+  "name": "identificar-criacao-arquivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-bassani/identificar-criacao-arquivo.git"
+  },
+  "author": "gabriel-bassani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-bassani/identificar-criacao-arquivo/issues"
+  },
+  "homepage": "https://github.com/gabriel-bassani/identificar-criacao-arquivo#readme",
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "get-file-properties": "^1.0.1",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "electron": "^15.3.1",
+    "electron-builder": "^22.14.5"
+  }
+}
